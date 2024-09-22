@@ -9,7 +9,6 @@ Django Rest Framework Basic CRUD
 - [GET] http://localhost/api/users/
 - [GET] http://locahlost/api/users/`id`
 - [POST] http://locahlost/api/users/
-  Body:
   ```
   {
     "age": 98,
@@ -17,7 +16,6 @@ Django Rest Framework Basic CRUD
   }
   ```
 - [PUT] http://localhost/api/users/`id`
-  Body:
   ```
   {
     "age": 98,
