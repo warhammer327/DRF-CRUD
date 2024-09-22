@@ -6,9 +6,9 @@ Django Rest Framework Basic CRUD
 - `python3 manage.py runserver` from project directory
 
 ### API Endpoints
-- [GET] http://locahost/api/users/
-- [GET] http://locahost/api/users/`id`
-- [POST] http://locahost/api/users/
+- [GET] http://localhost/api/users/
+- [GET] http://locahlost/api/users/`id`
+- [POST] http://locahlost/api/users/
   Body:
   ```
   {
@@ -16,13 +16,14 @@ Django Rest Framework Basic CRUD
     "name": "Garry"
   }
   ```
-- [PUT] http://locahost/api/users/`id`
+- [PUT] http://localhost/api/users/`id`
+  Body:
   ```
   {
     "age": 98,
     "name": "Garry"
   }
   ```
-- [DELETE] http://locahost/api/users/`id`
+- [DELETE] http://localhost/api/users/`id`
 
  
